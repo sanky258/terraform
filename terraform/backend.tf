@@ -16,8 +16,8 @@ terraform {
   backend "azurerm" {
     resource_group_name  = "rg-tfstate"
     storage_account_name = "sttfstate19714" # must be globally unique
-    container_name        = "tfstate"
-    key                   = "vm.terraform.tfstate"
+    container_name       = "tfstate"
+    key                  = "vm.terraform.tfstate"
   }
 }
 
