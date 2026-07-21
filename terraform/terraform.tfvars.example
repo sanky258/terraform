@@ -1,0 +1,10 @@
+# Copy this to terraform.tfvars for local testing (terraform.tfvars is gitignored)
+resource_group_name = "rg-learning-vm"
+location             = "canadacentral"
+vm_name              = "vm-learning01"
+vm_size              = "Standard_B1s"
+admin_username       = "azureuser"
+environment          = "dev"
+
+# Paste the contents of your ~/.ssh/id_rsa.pub (or ed25519.pub) here
+ssh_public_key = "ssh-rsa AAAA... your-key-here"
